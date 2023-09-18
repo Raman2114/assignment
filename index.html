@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        .section1 {
+            display: flex;
+            justify-content: center;
+            background-color: aliceblue;
+            height: 80px;
+        }
+
+        .logo {
+            padding-left: 70px;
+            padding-top: 2px;
+            margin-left: 90px;
+            margin-right: 0px;
+        }
+
+        .logo img {
+            height: 50px;
+            width: 100px;
+        }
+
+        nav ul li {
+            display: inline;
+            padding-right: 30px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: gray;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 0px;
+            margin-left: 0px;
+            margin-top: 15px;
+        }
+        nav ul li a:hover{
+            color: black;
+        }
+
+        .button {
+            margin-top: 10px;
+            margin-left: 90px;
+            padding-left: 70px;
+            margin-right: 100px;
+        }
+        .but1:hover{
+            color: aqua;
+        }
+
+        .img img {
+            height: 500px;
+            width: 100%;
+        }
+
+        .but1 {
+            background-color: azure;
+            border: 0.2px solid gainsboro;
+            height: 30px;
+            width: 60px;
+            border-radius: 1px;
+        }
+
+        .but2 {
+            background-color: aqua;
+            color: azure;
+            border: 0px solid gainsboro;
+            height: 30px;
+            width: 80px;
+            border-radius: 1px;
+        }
+        .but2:hover{
+            background-color: aquamarine;
+        }
+
+        .text {
+            display: block;
+            text-align: center;
+            margin-top: -350px;
+            color: white;
+        }
+
+        h1 {
+            font-size: xx-large;
+        }
+
+        p {
+            font-size: large;
+        }
+
+        .section3 {
+            margin-top: 20%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .section4 {
+            margin-top: 2%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .box1 {
+            height: 460px;
+            width: 380px;
+            border: 2px solid gainsboro;
+            box: shadow 2px;
+            margin: 10px;
+        }
+
+        .box1 h3 {
+            color: gray;
+            text-align: center;
+        }
+        .box1 h3:hover,p:hover ,.footer .h41:hover{
+            color: aqua;
+        }
+
+        .box1 p {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .box1 .footer {
+            display: flex;
+            color: gray;
+        }
+
+        .footer img {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            margin-left: 10px;
+        }
+
+        .footer .h41,
+        .h42 {
+            margin-top: -0.8px;
+            padding-top: 7px;
+        }
+
+        .footer .h41 {
+            margin-left: 10px;
+        }
+
+        .footer .h42 {
+           /* position: relative;*/
+            margin-left: 120px;
+        }
+
+        .page {
+            display: flex;
+            justify-content: center;
+        }
+
+        .page button {
+            background-color: white;
+            margin-top: 15px;
+            margin-left: 10px;
+            height: 30px;
+            width: 130px;
+            border: 1px solid gray;
+            border-radius: 3px;
+        }
+        .page button:hover{
+            background-color:aqua;
+            color: white;
+        }
+
+        .last1 h3 {
+            font-size: 13px;
+            margin-left: 5px;
+        }
+
+        .div1 {
+            display: flex;
+            width: 350px;
+            margin-bottom: -15px;
+        }
+
+        .div1 img {
+            border-radius: 5px;
+            margin-right: 10px;
+            margin-top: 10px;
+            margin-bottom: -10px;
+            padding-bottom: -15px;
+        }
+
+        .div1 .p1 h4 {
+            color: gray;
+            margin-bottom: -10px;
+        }
+        .p1 h4:hover, .p1 p:hover{
+            color: aqua;
+
+        }
+
+        .div1 .p1 {
+            display: block;
+        }
+
+        .div1 .p1 p {
+            color: gray;
+            font-size: 15px;
+        }
+
+        .div2 .button-0 {
+            margin-bottom: 12px;
+        }
+        .button-0 button:hover{
+            color: white;
+            background-color: aqua;
+        }
+
+        .button-1 button:hover{
+            color: white;
+            background-color: aqua;
+        }
+
+        .button-0 button,
+        .button-1 button {
+            background-color: white;
+            height: 20px;
+            border: 1px solid gainsboro;
+            color: gray;
+        }
+
+        .button-1 button {
+            margin-right: 12px;
+        }
+
+        .div2 p {
+            color: gray;
+        }
+
+        .last1 {
+            margin-left: 190px;
+            margin-top: 10px;
+        }
+
+        .last2 {
+            display: flex;
+            justify-content: center;
+            margin-top: -300px;
+        }
+
+        .checkbox input {
+            height: 35px;
+            width: 250px;
+            padding-left: 10px;
+            border: 1px solid gainsboro;
+            border-radius: 5px;
+        }
+
+        .checkbox button {
+
+            height: 38px;
+            width: 115px;
+            background-color: aqua;
+            border: 1px solid gainsboro;
+            border-radius: 5px;
+            color: gray;
+        }
+        .checkbox button:hover{
+            color: white;
+            background-color: aquamarine;
+        }
+
+        .last3 {
+            width: 350px;
+            margin-left: 950px;
+            margin-top: -260px;
+        }
+
+        .last3 .h51 {
+            color: gray;
+            font-size: 15px;
+        }
+
+        .nav1 {
+            display: flex;
+            justify-content: space-between;
+            margin-top: -15px;
+        }
+
+        .nav1 p {
+            font-size: 15px;
+            color: gray;
+        }
+        .end1 h5{
+            color: gray;
+            margin-left:180px ;
+        }
+        .nav1 p:hover{
+            color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="section1">
+            <nav>
+                <div class="logo">
+                    <span><img src="img/polar-logo.png" alt=""></span>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Style Guide</a></li>
+                        <li><a href="">Tag Archive</a></li>
+                        <li><a href="">Author Archive</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Error Page</a></li>
+                    </ul>
+                </div>
+                <div class="button">
+                    <button class="but1">signin</button>
+                    <button class="but2">subscribe</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="section2">
+        <div class="img">
+            <img src="img/lanscape.jpg" alt="">
+            <div class="text">
+                <h1><b> Thoughts, stories and ideas.</b></h1>
+                <p>Minimal and modern theme for Ghost. Use it for personal blog or multi-author blog / magazine.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section3">
+        <div class="box1">
+            <img src="img/lifestyle.png" alt="" height="280px" width="380px">
+            <h3>LIFESTYLE</h3>
+            <p><b>I like fishing because it is always the <br> great way of relaxing</b></p>
+            <hr>
+            <div class="footer">
+                <img src="img/Fimage2.jpg" alt="">
+                <h5 class="h41"> Biswajit Saha</h5>
+                <h5 class="h42"> May 14, 2017</h5>
+            </div>
+        </div>
+
+        <div class="box1">
+            <img src="img/travel.png" alt="" height="280px" width="380px">
+            <h3>TRAVEL</h3>
+            <p><b>My Memorable story of trip to grand canyon National Park</b></p>
+            <hr>
+            <div class="footer">
+                <img src="img/Fimage.jpg" alt="">
+                <h5 class="h41"> Surabhi Gupta</h5>
+                <h5 class="h42"> May 14, 2017</h5>
+            </div>
+        </div>
+
+        <div class="box1">
+            <img src="img/adventure.png" alt="" height="280px" width="380px">
+            <h3>ADVENTURE</h3>
+            <p><b>Camping in an abandoned house under the starry night at hill top</b></p>
+            <hr>
+            <div class="footer">
+                <img src="img/Fimage2.jpg" alt="">
+                <h5 class="h41"> Biswajit Saha</h5>
+                <h5 class="h42"> May 14, 2017</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="section4">
+        <div class="box1">
+            <img src="img/adventure2.png" alt="" height="280px" width="380px">
+            <h3>LIFESTYLE</h3>
+            <p><b>Some amazing similarities between people around the world</b></p>
+            <hr>
+            <div class="footer">
+                <img src="img/Fimage2.jpg" alt="">
+                <h5 class="h41"> Biswajit Saha</h5>
+                <h5 class="h42"> May 14, 2017</h5>
+            </div>
+        </div>
+
+        <div class="box1">
+            <img src="img/travel2.png" alt="" height="280px" width="380px">
+            <h3>TRAVEL</h3>
+            <p><b>A perfect road map for <br> travelling asian countries</b></p>
+            <hr>
+            <div class="footer">
+                <img src="img/Fimage.jpg" alt="">
+                <h5 class="h41">Apurba Talukdar</h5>
+                <h5 class="h42"> May 14, 2017</h5>
+            </div>
+        </div>
+
+        <div class="box1">
+            <img src="img/music.png" alt="" height="280px" width="380px">
+            <h3>MUSIC</h3>
+            <p><b>Mind refreshing song <br> by Rabindranath Tagore</b></p>
+            <hr>
+            <div class="footer">
+                <img src="img/Fimage2.jpg" alt="">
+                <h5 class="h41"> Biswajit Saha</h5>
+                <h5 class="h42"> May 14, 2017</h5>
+            </div>
+        </div>
+    </div>
+    <div class="page">
+        <h4>page 1 of 2</h4>
+        <button>older articles</button>
+    </div>
+    <hr>
+    <div class="last">
+        <div class="last1">
+            <h3>RECENT POST</h3>
+            <div class="div1">
+                <img src="img/lifestyle.png" alt="" height="70px" width="70px">
+                <div class="p1">
+                    <h4>I like fishing because it is always the great way of relaxing</h4>
+                    <p> May 14, 2017</p>
+                </div>
+            </div>
+            <div class="div1">
+                <img src="img/travel.png" alt="" height="70px" width="70px">
+                <div class="p1">
+                    <h4>My Memorable story of trip to grand canyon National Park</h4>
+                    <p> May 14, 2017</p>
+                </div>
+            </div>
+            <div class="div1">
+                <img src="img/adventure.png" alt="" height="70px" width="70px">
+                <div class="p1">
+                    <h4>Camping in an abandoned house under the starry night at hill top</h4>
+                    <p> May 14, 2017</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="last2">
+            <div class="div2">
+                <h5>TAG CLOUD</h5>
+                <div class="button-0">
+                    <button>Adventure</button>
+                    <button>Getting Started</button>
+                    <button>Lifestyle</button>
+                </div>
+                <div class="button-1">
+                    <button>music</button>
+                    <button>Nature</button>
+                    <button>travel</button>
+                    <button>video</button>
+                </div>
+                <br>
+                <h5> SUBSCRIBE TO POLAR </h5>
+                <p>Get the latest posts delivered right to your inbox.</p>
+
+                <div class="checkbox">
+                    <input type="email" name="Enter yor mail" id="email" placeholder="Enter your email...">
+                    <button>subscribe</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="last3">
+            <h5>TEXT WIDGET</h5>
+            <h5 class="h51">
+                It's a suitable place for adding small info about your site. Here you can add any text or html like this
+                <b>Bold Text</b> or anything else.
+            </h5>
+            <h5 class="h51"> All widgets in this footer are reorderable. An email subscription form widget is also
+                available within
+                the theme. Which you can use in place of this text widget.</h5>
+
+            <h4>Navigation</h4>
+            <br>
+            <div class="nav1">
+                <p>Style Guide</p>
+                <p>Tag Archive</p>
+                <p>Author Archive</p>
+                <p>About</p>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <hr>
+    <div class="end">
+        <div class="end1">
+            <h5>© 2023 Polar. All right Reserved. Powered by Ghost</h5>
+        </div>
+    </div>
+</body>
+
+</html>
